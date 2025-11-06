@@ -11,11 +11,12 @@ Elle ne collecte, ne stocke, ne partage et n’envoie aucune donnée personnelle
 
 L’application peut accéder aux éléments suivants :
 
-Donnée	Usage	Stockée ?	Envoyée ?
-Position GPS	Déterminer la position du téléphone sur demande	❌ Non	✅ Par SMS au numéro demandeur uniquement
-Messages SMS reçus	Lire le SMS contenant le code de localisation	❌ Non	❌ Non
-SMS sortants	Envoyer la réponse de localisation	❌ Non	✅ Au numéro demandeur uniquement
-Sonnerie / vibration / flash (si fonctionnalité "Ring")	Faire sonner le téléphone	❌ Non	❌ Non
+| Donnée | Usage | Stockée ? | Envoyée ? |
+|-------|--------|-----------|-----------|
+| **Position GPS** | Déterminer la position du téléphone sur demande | ❌ Non | ✅ Par **SMS** au **numéro demandeur uniquement** |
+| **Messages SMS reçus** | Lire le SMS contenant le code de localisation | ❌ Non | ❌ Non |
+| **SMS sortants** | Envoyer la réponse de localisation | ❌ Non | ✅ Au **numéro demandeur uniquement** |
+| **Sonnerie / vibration / flash** (si mode *Ring*) | Faire sonner le téléphone | ❌ Non | ❌ Non |
 
 ➡️ Aucune donnée n’est transmise à Internet.
 ➡️ Aucune donnée n’est partagée avec des tiers.
@@ -56,11 +57,12 @@ The application works locally only on the device.
 It does not collect, store, share, or transmit any personal data to any server or third party.
 
 1. Data Processed
-Data	Purpose	Stored?	Shared?
-GPS Location	Determine phone location on request	❌ No	✅ Sent via SMS back to the requesting number only
-Incoming SMS	Detect and validate the request code	❌ No	❌ No
-Outgoing SMS	Send location response	❌ No	✅ Sent only to the sender of the request
-Ringtone / vibration / flash (if Ring mode)	Help locate the phone physically	❌ No	❌ No
+| Data | Purpose | Stored? | Shared? |
+|------|---------|---------|---------|
+| **GPS Location** | Determine the phone location on request | ❌ No | ✅ Sent **via SMS** to the **requesting number only** |
+| **Incoming SMS** | Detect and validate the request code | ❌ No | ❌ No |
+| **Outgoing SMS** | Send location response | ❌ No | ✅ Sent **only to the sender** |
+| **Ringtone / vibration / flash** (Ring mode) | Help locate the phone physically | ❌ No | ❌ No |
 
 ➡️ No data is uploaded to the Internet.
 ➡️ No data is shared with third parties.
