@@ -59,7 +59,7 @@ It does not collect, store, share, or transmit any personal data to any server o
 1. Data Processed
 | Data | Purpose | Stored? | Shared? |
 |------|---------|---------|---------|
-| **GPS Location** | Determine the phone location on request | ❌ No | ✅ Sent **via SMS** to the **requesting number only** |
+| **GPS Location** | Determine phone location on request | ❌ No | ✅ Sent **via SMS** to the **requesting number only** |
 | **Incoming SMS** | Detect and validate the request code | ❌ No | ❌ No |
 | **Outgoing SMS** | Send location response | ❌ No | ✅ Sent **only to the sender** |
 | **Ringtone / vibration / flash** (Ring mode) | Help locate the phone physically | ❌ No | ❌ No |
